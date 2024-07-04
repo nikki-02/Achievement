@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Event</title>
+</head>
+<body>
+    <h1>Event</h1>
+    <ul>
+        <li><a href="/view-certificates?category=antragini&type=technical">Technical</a></li>
+        <li><a href="/view-certificates?category=antragini&type=nontechnical">Non-Technical</a></li>
+    </ul>
+    <h2>Upload Certificate</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="category" value="antragini">
+        <label>
+            Type:
+            <select name="type">
+                <option value="technical">Technical</option>
+                <option value="nontechnical">Non-Technical</option>
+            </select>
+        </label>
+        <input type="file" name="certificate" required>
+        <button type="submit">Upload Certificate</button>
+    </form>
+    <a href="/user_dashboard">Back to Dashboard</a>
+</body>
+</html>

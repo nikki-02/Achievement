@@ -1,0 +1,59 @@
+{
+  "certificates": [
+    {
+      "id": "1716033165478",
+      "category": "antragini",
+      "type": "nontechnical",
+      "file": "1716033165403-New Text Document.txt",
+      "status": "pending"
+    },
+    {
+      "id": "1716034241389",
+      "category": "antragini",
+      "type": "technical",
+      "file": "1716034241193-WhatsApp Image 2024-03-06 at 1.32.54 PM.jpeg",
+      "status": "pending"
+    },
+    {
+      "id": "1716034732548",
+      "category": "antragini",
+      "type": "technical",
+      "file": "1716034732413-Atoms  PYQs @TEAMNJR.pdf",
+      "status": "pending"
+    }
+  ],
+  "users": [
+    {
+      "username": "Durgesh",
+      "password": "1234"
+    },
+    {
+      "username": "Bhavya",
+      "password": "456"
+    },
+    {
+      "username": "Aryan",
+      "password": "147"
+    },
+    {
+      "username": "Nikita",
+      "password": "0722"
+    },
+    {
+      "username": "abcd",
+      "password": "09"
+    },
+    {
+      "username": "Aliasgar",
+      "password": "0123456"
+    },
+    {
+      "username": "Siya",
+      "password": "12"
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "password": "admin"
+  }
+}
